@@ -16,6 +16,7 @@ public class TestCatalogServiceApplication {
         return new PostgreSQLContainer<>(DockerImageName.parse("postgres:16-alpine"));
     }
 
+    //Test value
     public static void main(String[] args) {
         SpringApplication.from(CatalogServiceApplication::main)
                 .with(ContainerConfig.class)
