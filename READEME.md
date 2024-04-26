@@ -22,3 +22,12 @@ Reformat the code
 
 docker run 
 docker compose -f infra.yml up -d 
+
+Task 
+https://taskfile.dev/installation/
+
+To run all the task
+task 
+
+To run specific task
+task start_infra
